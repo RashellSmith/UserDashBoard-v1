@@ -1,0 +1,126 @@
+*{
+  box-sizing: border-box;
+}
+
+p, h1 {
+  font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+  color: grey;
+  font-weight: lighter;
+}
+
+ body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+span {
+  color: white;
+  font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+  font-size: 2em;
+  padding: 0 25px;
+}
+
+.member {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+
+/* a {
+  width: 65px;
+  hight: 40px;
+  padding: 15px;
+} */
+a:hover {
+  border-left-width: medium;
+  border-left-style: solid;
+  border-left-color:#3CB371;
+}
+.tab{
+  background-color:	#F5F5F5;
+  width:75%;
+  max-height: 65px;
+  border:thin solid #D0D0D0;
+}
+input[type=text] {
+  float: right;
+  padding: 6px;
+  border: 1px solid #D0D0D0;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.box-1{
+  display: flex;
+  padding-left: 75px;
+  justify-content: space-between;
+}
+#top-banner {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #8b8ebf;
+  /* Wild Blue Yonder */
+  width: 100vw;
+  max-height: 70px;
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  z-index: 1;
+
+}
+.chart-container{
+  display: block;
+  margin: auto 100px;
+  max-width: 90vw;
+  max-height: 30vh;
+}
+.div-label{
+  color:grey;
+  float: left;
+  position: relative;
+  left: -25px;
+  font-size: 1.15em;
+  padding: 15px;
+
+}
+.box-2{
+  display: flex;
+  flex-direction: row;
+}
+/* #myChart{
+  display: block;
+  margin:auto;
+  max-width: 90vw;
+  max-height: 30vh;
+} */
+
+#side-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  right: 0;
+  height: 100vh;
+  /* Full-height: remove this if you want "auto" height */
+  max-width: 65px;
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #515593;
+  /* Butterfly Bush */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 75px;
+
+}
+
+.icon {
+  width: 60px;
+  hight: 60px;
+  padding: 15px;
+}

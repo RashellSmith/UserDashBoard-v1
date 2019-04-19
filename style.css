@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-p, h1 {
+/* p, h1 {
   font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
   color: grey;
   font-weight: lighter;
@@ -25,7 +25,7 @@ span {
   width: 50px;
   height: 50px;
   border-radius: 100px;
-}
+} */
 
 /* a {
   width: 65px;
@@ -43,21 +43,21 @@ a:hover {
   max-height: 65px;
   border:thin solid #D0D0D0;
 }
-input[type=text] {
+/* input[type=text] {
   float: right;
   padding: 6px;
   border: 1px solid #D0D0D0;
   margin-top: 8px;
   margin-right: 16px;
   font-size: 17px;
-}
+} */
 
-.box-1{
+/* .box-1{
   display: flex;
   padding-left: 75px;
   justify-content: space-between;
-}
-#top-banner {
+} */
+/* #top-banner {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -71,13 +71,19 @@ input[type=text] {
   left: 0;
   z-index: 1;
 
-}
-.chart-container{
+} */
+/* .chart-1{
   display: block;
   margin: auto 100px;
   max-width: 90vw;
   max-height: 30vh;
-}
+} */
+/* .chart-2{
+
+  margin: auto ;
+  max-width: 90vw;
+  max-height: 30vh;
+} */
 .div-label{
   color:grey;
   float: left;
@@ -98,7 +104,7 @@ input[type=text] {
   max-height: 30vh;
 } */
 
-#side-banner {
+/* #side-banner {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -117,7 +123,7 @@ input[type=text] {
   /* Disable horizontal scroll */
   padding-top: 75px;
 
-}
+} */
 
 .icon {
   width: 60px;
